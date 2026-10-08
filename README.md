@@ -23,6 +23,8 @@ After you change anything, publish the update from this folder:
 npx vercel@latest deploy --prod
 ```
 
+Commits in this repo must use the email on your Vercel account (`mohitsoni81011@gmail.com`), or Vercel blocks the deploy with *"the commit author doesn't have permission"*. This repo is already set up that way (`git config user.email`).
+
 `.vercelignore` keeps `_source-png/` (the 18 MB original images) out of the upload. The `.vercel/` folder links this folder to the Vercel project. Keep it, but don't share it. To use your own domain, go to Vercel → Project → Settings → Domains.
 
 ## Before going live: replace these
