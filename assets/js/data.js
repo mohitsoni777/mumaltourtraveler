@@ -10,7 +10,7 @@ window.MUMAL = {
     phoneDisplay: "+91 79762 79155",
     phone: "+917976279155",
     whatsapp: "917976279155", // country code + number, digits only — booking enquiries arrive here
-    email: "paramveer.sarangdevot@hoicko.ai", // shown on the site; booking emails are delivered here
+    email: "paramveersingh2822@gmail.com", // shown on the site; booking emails are delivered here
     // Booking emails are sent by the site's own function (api/send-booking.js).
     // It needs SMTP_USER + SMTP_PASS set once in Vercel — see README.
     emailEndpoint: "/api/send-booking",

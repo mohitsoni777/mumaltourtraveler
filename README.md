@@ -31,7 +31,7 @@ Everything below lives in **`assets/js/data.js`**:
 
 | What | Where |
 |---|---|
-| Phone, WhatsApp number, email, address | `config` (already set to +91 79762 79155 / paramveer.sarangdevot@hoicko.ai) |
+| Phone, WhatsApp number, email, address | `config` (already set to +91 79762 79155 / paramveersingh2822@gmail.com) |
 | Headline numbers (vehicles, travellers, weddings) | `stats` |
 | Customer reviews (currently **sample text**) | `reviews` |
 | Cancellation / advance policy | `faqs` |
@@ -45,7 +45,7 @@ Also:
 There's no seat ticketing; customers charter the whole vehicle. They fill in the 4-step form (Vehicle → Trip → Contact → Review), then pick how to send it:
 
 - **Send on WhatsApp:** opens WhatsApp to **+91 79762 79155** with the complete enquiry already typed (reference number, vehicle, dates, pickup, guests and contact details). The customer just taps Send.
-- **Send by Email:** the enquiry is emailed **directly to paramveer.sarangdevot@hoicko.ai** as a neat table, with no mail app needed. If the customer gave their email, Reply goes straight to them and they get an automatic confirmation.
+- **Send by Email:** the enquiry is emailed **directly to paramveersingh2822@gmail.com** as a neat table, with no mail app needed. If the customer gave their email, Reply goes straight to them and they get an automatic confirmation.
 
 Both options use the same reference number (e.g. `MTT-AS22I`), so a customer can send both and you'll know it's one booking. If email ever fails, the customer is offered WhatsApp, or their own mail app with everything pre-filled, so no enquiry is lost.
 
@@ -64,7 +64,7 @@ Emails are sent by the site's own function (`api/send-booking.js`) through a nor
 |---|---|
 | `SMTP_USER` | the Gmail address from step 1 |
 | `SMTP_PASS` | the 16-character App Password |
-| `BOOKING_TO` | `paramveer.sarangdevot@hoicko.ai` (optional; this is already the default) |
+| `BOOKING_TO` | `paramveersingh2822@gmail.com` (optional; this is already the default) |
 
 **3. Redeploy:** run `npx vercel@latest deploy --prod` (or click **Redeploy** in the dashboard).
 

@@ -10,7 +10,7 @@
      SMTP_PASS   its app password (Gmail: 16-character App Password)     (required)
      SMTP_HOST   default smtp.gmail.com
      SMTP_PORT   default 465
-     BOOKING_TO  where enquiries go, default paramveer.sarangdevot@hoicko.ai
+     BOOKING_TO  where enquiries go, default paramveersingh2822@gmail.com
      SEND_CUSTOMER_CONFIRMATION  "0" to stop the confirmation email to the customer
      MAIL_DRY_RUN  "1" to build the email without sending (testing)
 
@@ -21,7 +21,7 @@ const nodemailer = require('nodemailer');
 
 const BRAND = 'Mumal Tour & Travels';
 const DESK_PHONE = '+91 79762 79155';
-const TO = process.env.BOOKING_TO || 'paramveer.sarangdevot@hoicko.ai';
+const TO = process.env.BOOKING_TO || 'paramveersingh2822@gmail.com';
 
 /* ---------- helpers ---------- */
 const hits = new Map(); // best-effort rate limit per IP (per function instance)
