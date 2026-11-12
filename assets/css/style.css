@@ -329,6 +329,11 @@ h2 em, .hero-title em { font-style: italic; font-weight: 500; }
 .about-badge > span { display: grid; place-items: center; width: 52px; height: 52px; border-radius: 50%; background: var(--gold-grad); color: var(--ink); }
 .about-badge > span svg { position: static; width: 24px; height: 24px; animation: none; }
 @keyframes spin { to { transform: rotate(360deg); } }
+.about-owner { display: flex; gap: 18px; align-items: flex-start; margin-top: 28px; padding: 20px 22px; border-radius: var(--radius-sm); background: #fff; border: 1px solid var(--line); border-left: 4px solid var(--gold); box-shadow: var(--shadow); }
+.about-owner-mark { flex: none; display: grid; place-items: center; width: 52px; height: 52px; border-radius: 50%; background: var(--maroon); color: var(--gold-2); font-family: var(--font-display); font-size: 1.3rem; font-weight: 700; }
+.about-owner strong { display: block; font-family: var(--font-display); font-size: 1.35rem; color: var(--maroon); line-height: 1.2; }
+.about-owner div > span { display: block; margin-top: 2px; font-size: .82rem; font-weight: 600; color: var(--gold-3); letter-spacing: .02em; }
+.about-owner p { margin-top: 10px; font-size: .95rem; font-style: italic; color: var(--muted); }
 .about-points { display: grid; gap: 14px; margin-top: 30px; }
 .about-points li { display: flex; gap: 14px; align-items: flex-start; font-weight: 500; }
 .about-points svg { width: 22px; height: 22px; padding: 4px; border-radius: 50%; background: rgba(109, 20, 38, .1); color: var(--maroon); stroke-width: 2.6; margin-top: 1px; }
